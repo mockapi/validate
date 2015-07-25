@@ -1,0 +1,20 @@
+{
+    "name": "mockapi/validate",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Mockapi\\Validate\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/geraintluff/jsv4-php.git"
+        }
+    ],
+    "require": {
+        "geraintluff/jsv4": "dev-master",
+        "oodle/inflect": "dev-master"
+    }
+}
